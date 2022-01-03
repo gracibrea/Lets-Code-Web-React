@@ -1,4 +1,5 @@
-//Escreva um programa que imprime a soma dos 100 primeiros números naturais. @rochaotto
+//Escreva um programa que imprime a soma dos 100 primeiros números naturais. 
+//Fi sozinha
 
 /*
 soma = 0;

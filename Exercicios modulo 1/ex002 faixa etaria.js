@@ -5,6 +5,8 @@ Idade Faixa
 ● 18-60 Adulto
 ● > 60 Idoso*/
 
+//Fiz sozinha
+
 let idade = 1;
 if (idade > 60){
     console.log('Idoso');

@@ -1,5 +1,6 @@
 //Escreva uma função que recebe o valor do raio de um círculo e retorne o seu     perímetro (C = 2*pi*r)
 
+//fiz sozinha
 let r = 30;
 pi = 3.14;
 function perimetro (r, pi) {return 2*pi*r}

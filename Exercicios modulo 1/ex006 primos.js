@@ -1,4 +1,5 @@
 //Escreva um programa que imprime todos os números primos entre 1 e 100
+//Fiz com ajuda
 /*
 function numerosPrimos(inicio, fim) {
     for (let i = inicio; i <= fim; i++) { 

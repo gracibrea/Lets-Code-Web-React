@@ -1,4 +1,5 @@
 //Escreva um programa que imprime todos os números pares entre 1 e 1000.
+//Fiz sozinha
 /*
 function pares(inicio, fim){
     for (let num = inicio; num <= fim; num++) {
