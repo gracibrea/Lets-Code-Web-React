@@ -10,6 +10,6 @@ class Carro {
     }
 }
 
-const carro = new Carro ("Nissan", "Etios", "2021"); 
+const carro = new Carro ("Nissan", "Etios", 2021); 
 carro.cor = 'laranjado';//só é possível incluir a cor assim
 console.log(carro);
