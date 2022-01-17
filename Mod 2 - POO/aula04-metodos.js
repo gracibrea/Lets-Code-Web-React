@@ -22,4 +22,4 @@ class Quadrado{
 const quadrado = new Quadrado(11, 12);
 console.log(`A área do quadrado é ${quadrado.calculaArea()}.`);
 quadrado.duplicaBase(); //chamando a função
-console.log(`Depois de chamada a função do método área do quadrado é ${quadrado.calculaArea()}.`);
+console.log(`Depois de chamada a função do método a área do quadrado é ${quadrado.calculaArea()}.`);

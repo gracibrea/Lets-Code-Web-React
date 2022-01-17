@@ -1,27 +1,29 @@
 //Crie uma classe Agenda com os atributos de contato (nome, telefone e e-mail) e com métodos para adicionar novo contato e excluir um existente.
+
 class Agenda {
-    constructor (nome, telefone, email) {
-        this.nome = nome;
-        this.telefone = telefone;
-        this.email = email;
+    constructor () {
+        this.agenda = [];
     }
-    /*
-    adicionaContato(){
-        this.nome = push('Claudia');
-        this.telefone = push(23232323);
-        this.email = push('push@email.com');
+    adicionar (contato){ 
+        this.agenda.push(contato) 
     }
-    excluiContato(){
-        this.nome = this.nome.pop.nome;
-        this.telefone = this.telefone.pop.telefone;
-        this.email = this.email.pop.email;
+    excluir (contato) {
+        this.agenda = this.agenda.filter((item) => item.nome !== contato);
     }
-    */
 }
 
-const agenda = new Agenda ('Joana', 1234567899, 'email@email.com');
+const agenda = new Agenda();
+
+agenda.adicionar( {nome : 'Romilson', telefone : '1234-4321', email : 'email1@teste.com'});
+
+agenda.adicionar({nome : 'Julieta', telefone : '4321-1234', email : 'email2@teste.com'});
+
+agenda.adicionar( {nome : 'Escolástica', telefone : '5689-1245', email : 'email3@teste.com'});
+
+agenda.adicionar({nome : 'Zigfrida', telefone : '9875-6421', email : 'email4@teste.com'});
 console.log(agenda);
-/*agenda.adicionaContato();
+
+agenda.excluir('Julieta');
 console.log(agenda);
-agenda.excluiContato();
-console.log(agenda)*/
+
+
