@@ -8,5 +8,5 @@ class Ponto {
     }
 }
 
-const ponto = new Ponto ('cinco', 10);
+const ponto = new Ponto ('5', 10);
 console.log(ponto);

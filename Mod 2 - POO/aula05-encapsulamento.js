@@ -32,7 +32,7 @@ console.log(quadrado.getCor()); //chama o método e imprime
 
 class Quadrado {
     constructor (base, altura) {
-        let cor = 'blue';
+        let cor = 'blue'; //let não permite que a a variável seja acessível fora do escopo, neste caso, da função
         this.base = base;
         this.altura = altura;
         this.getCor = () => {return cor;};
